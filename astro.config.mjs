@@ -6,6 +6,9 @@ import { defineConfig, fontProviders } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
+	redirects: {
+		'/blog': '/',
+	},
 	site: 'https://conceptualnanaimo.com',
 	integrations: [mdx(), sitemap()],
 	fonts: [
