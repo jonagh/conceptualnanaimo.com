@@ -34,5 +34,21 @@ export default defineConfig({
 				],
 			},
 		},
+		{
+			provider: fontProviders.local(),
+			name: 'Architects Daughter',
+			cssVariable: '--font-architectural',
+			fallbacks: ['sans-serif'],
+			options: {
+				variants: [
+					{
+						src: ['./src/assets/fonts/ArchitectsDaughter-Regular.ttf'],
+						weight: 400,
+						style: 'normal',
+						display: 'swap',
+					},
+				],
+			},
+		},
 	],
 });

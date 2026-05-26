@@ -122,6 +122,14 @@ hr {
 	}
 }
 
+.font-size-md {
+    font-size: 1.5em;
+}
+
+.font-architectural {
+	font-family: var(--font-architectural);
+}
+
 .sr-only {
 	border: 0;
 	padding: 0;
