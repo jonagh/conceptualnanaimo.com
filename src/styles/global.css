@@ -6,8 +6,9 @@
 @import "tailwindcss";
 
 :root {
-	--accent: #2337ff;
-	--accent-dark: #000d8a;
+	--accent: orange;
+	--accent-dark: darkolivegreen;
+    --link: #44c;
 	--black: 15, 18, 25;
 	--gray: 96, 115, 159;
 	--gray-light: 229, 233, 240;
@@ -66,7 +67,7 @@ b {
 	font-weight: 700;
 }
 a {
-	color: var(--accent);
+	color: var(--link);
 }
 a:hover {
 	color: var(--accent);
@@ -123,8 +124,8 @@ hr {
 	}
 }
 
-.font-size-md {
-    font-size: 1.5em;
+.font-size-1_25 {
+    font-size: 1.25em;
 }
 
 .font-architectural {
